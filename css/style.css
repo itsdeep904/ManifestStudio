@@ -129,9 +129,10 @@ ul.nav-list li a:hover { color:#333333; border-bottom: 3px solid #000000; paddin
 }
 .button-box {
     background-color: transparent;
-    border: 10px solid #000000;
+    border: 10px solid #7e3939;
     overflow: hidden;
-    color: #000000;
+    color: #7e3939;
+	border-radius: 20px;
 }
 .button-box:after {
 	width: 0;
@@ -158,7 +159,7 @@ ul.nav-list li a:hover { color:#333333; border-bottom: 3px solid #000000; paddin
 	text-decoration:none;
 }
 .about_right {
-    background-color: #f2efe5;
+    background-color: #fff;
     display: block;
     height: 525px;
     overflow: hidden;
@@ -666,7 +667,7 @@ i.tw_icon{
 	overflow: hidden;
 }
 .gallery-title {
-    background-color: #afac9c;
+    background-color: #fff;
     display: block;
     float: left;
     min-height: 270px;
@@ -756,7 +757,7 @@ ul.popup_links.g_links {
 .mobile-display-off{display: block;}
 /*--contact--*/
 .contact{
-	background:#e7e5d0;
+	background:#fff;
 	padding:8em 0;
 }
 .contact-form {
@@ -817,7 +818,7 @@ ul.popup_links.g_links {
     color: #000;
     font-size: 16px;
     line-height: 22px;
-    margin: 75px 0;
+    margin: 40px 0;
     padding: 0 60px;
 }
 .contact_btn{
@@ -931,14 +932,14 @@ ul.contact-social li a i.google:hover{
 }
 /*--footer--*/
 #footer-section{
-    background-color: #AEAEAE;
+    background-color: #7e3939;
 }
 .footer-nav {
     margin-bottom: 100px;
     margin-top: 100px;
 }
 .copyright {
-    color: #000000;
+    color: #fff;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 50px;
@@ -947,6 +948,7 @@ ul.contact-social li a i.google:hover{
 .copyright a{
     color: #000000;
 	text-decoration: underline;
+	font-size: 15px;
 }
 /***--- Go To Top ---***/
 #toTop {
@@ -961,4 +963,7 @@ ul.contact-social li a i.google:hover{
 	border: none;
 	text-indent: 100%;
 	background: url(../images/move-to-top.png) no-repeat 0px 0px;
+}
+.contact-info {
+    margin: 50px 0;
 }

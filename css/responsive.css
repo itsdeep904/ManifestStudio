@@ -255,7 +255,7 @@ ul.nav-list { display: none; }
 	ul.open li a { 
 		    display: block; 
 		    padding:10px 0px; 
-		    border-bottom:1px solid #E9E7D1;
+		    border-bottom:1px solid #7e3939;
 		    text-decoration: none;
 		    -webkit-transition: all 0.5s ease;
 			-moz-transition: all 0.5s ease;
@@ -405,7 +405,7 @@ ul.contact-social li {
   margin-right: 10px;
 }
 .copyright {
-  color: #000000;
+  color: #fff;
   font-size: 13px;
   font-weight: bold;
   margin-bottom: 50px;
@@ -606,12 +606,15 @@ ul.contact-social li {
   margin-right: 10px;
 }
 .copyright {
-  color: #000000;
+  color: #fff;
   font-size: 13px;
   font-weight: bold;
   margin-bottom: 50px;
   padding: 0 15px;
   text-align: center;
 }
-
+.contact {
+  background: #fff;
+  padding: 4em 0;
+}
 }
