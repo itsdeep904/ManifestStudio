@@ -621,4 +621,7 @@ ul.contact-social li {
 #map-section .button {
 	margin-top: 0;
 }
+.logo img {
+  width: 100px;
+}
 }

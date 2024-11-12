@@ -967,39 +967,6 @@ ul.contact-social li a i.google:hover{
 .contact-info {
     margin: 50px 0;
 }
-#map-section {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Button Styling */
-#map-section .button {
-    display: flex;
-    background: #7e3939c7;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    padding: 1rem;
-    border-radius: 12px;
-    z-index: 2;
-    position: absolute;
-    text-align: center;
-	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-	transition: transform 1.6s ease,
-}
-
-
-#map-section .click_me {
-    color: white;
-    font-weight: 500;
-    text-decoration: none; 
-}
-#map-section .button:hover {
-    transform: scale(1.1); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-#map-section .button:active {
-    transform: scale(1.95);
+.logo img {
+    width: 100px;
 }
