@@ -106,7 +106,7 @@ ul.nav-list li a:hover { color:#333333; border-bottom: 3px solid #000000; paddin
 	overflow: hidden;
 }
 .about_left {
-	background-image: url(../images/about-us-background.jpg);
+	background-image: url(../images/about-us-background.jpeg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
